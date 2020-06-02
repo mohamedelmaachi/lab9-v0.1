@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Student Management Web Application">
+</head>
+<body>
+    <div th:replace="fragments/header :: header"></div>
+
+    <div class="container" style="margin-top: 2em;">
+        <th:block>
+            <h3>Welcome to Students Management (SM) system</h3>
+            <hr/>
+            <div style="font-size: 1em">
+                To browse and manage <a href="/students/list">Students</a> , please first make sure to read the
+                instructions and key points provided below. And then click the
+                appropriate menu item, located on the menu-bar above.<br/><br/>
+
+                Lorem Ipsum is simply dummy .....
+            </div>
+        </th:block>
+    </div>
+    <div th:replace="fragments/footer :: footer"></div>
+ </body>
+</html>
